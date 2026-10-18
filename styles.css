@@ -919,7 +919,7 @@ a:focus-visible {
   }
 }
 
-@media (prefers-reduced-motion: reduce) {
+@media (prefers-reduced-motion: reduce) and (hover: hover) {
   *,
   *::before,
   *::after {
